@@ -11,6 +11,6 @@ steps:
   - uses: actions/checkout@v4
   - uses: moguri/setup-blender@v1
     with:
-      blender-version: '3.6'
+      blender-version: '5.0'
   - run: blender --version
 ```
